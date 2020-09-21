@@ -18,7 +18,7 @@ def speak_to_grandma(phrase)
 elsif phrase == phrase.downcase || phrase.downcase
   return "HUH?! SPEAK UP, SONNY!"
   return "HUH?! SPEAK UP, SONNY!"
-else phrase == !phrase.downcase
+else phrase == !phrase.downcase || !phrase.downcase
   return "NO, NOT SINCE 1938!"
   return "NO, NOT SINCE 1938!"
  end
